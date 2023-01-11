@@ -2,14 +2,14 @@
 
 >Meu portfólio para demonstrar meus projetos de estudos. 
 
-## Layout mobile
+## Layout web
 ![desktop](./.github/desktop.png)
 
 
-## Layout web
+## Layout mobile
 ![mobile](./.github/mobile.png)
 
-[🔗 Clique aqui para acessar]() 
+[🔗 Clique aqui para acessar](alanafsoares.github.io/portfolio/) 
 
 # Tech
 - HTML e CSS
