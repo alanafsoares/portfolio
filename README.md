@@ -3,14 +3,16 @@
 >Meu portfólio para demonstrar meus projetos de estudos. 
 
 ## Layout mobile
-![mobile]()
+![mobgitile](./.github/portfolio-mobile.png)
 
 
 ## Layout web
-![desktop]()
+![desktop](./.github/portfolio-desktop.png)
 
-https://alanafsoares.github.io/myportfolio/ 
+[🔗 Clique aqui para acessar]() 
 
 # Tech
-- HTML / CSS / JS 
+- HTML e CSS
+- JavaScript
+- Git e Github
 
