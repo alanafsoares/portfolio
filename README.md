@@ -3,11 +3,11 @@
 >Meu portfólio para demonstrar meus projetos de estudos. 
 
 ## Layout mobile
-![mobgitile](./.github/portfolio-mobile.png)
+![desktop](./.github/desktop.png)
 
 
 ## Layout web
-![desktop](./.github/portfolio-desktop.png)
+![mobile](./.github/mobile.png)
 
 [🔗 Clique aqui para acessar]() 
 
