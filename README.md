@@ -9,7 +9,7 @@
 ## Layout mobile
 ![mobile](./.github/mobile.png)
 
-[🔗 Clique aqui para acessar](alanafsoares.github.io/portfolio/) 
+[🔗 Clique aqui para acessar](https://alanafsoares.github.io/portfolio/) 
 
 # Tech
 - HTML e CSS
