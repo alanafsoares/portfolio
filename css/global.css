@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {transform: scale(1.1);}
+
+
+ion-icon {
+  font-size: 32px;
+  color: white;
+  --ionicon-stroke-width: 32px;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  /* width: 100%; */
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    #000,
+    var(--base-color-second)
+  );
+
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+:root {
+  --base-color: hsla(266, 77%, 48%, 1);
+  --base-color-second: hsla(274, 100%, 61%, 1);
+}
+
+.back-to-top {
+  background-color: var(--base-color);
+  position: fixed;
+  padding: 5px;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  clip-path: circle();
+  visibility: hidden;
+  opacity: 0;
+
+  transition: 0.3s;
+  transform: translateY(100%);
+}
+
+.back-to-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

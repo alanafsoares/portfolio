@@ -1,0 +1,46 @@
+.experience-text {
+  font-size: 2rem;
+  position: relative;
+}
+
+.qualification {
+  margin-top: 210px;
+}
+
+.education-text {
+  margin-top: 50px;
+}
+
+@media (max-width: 950px) {
+  .experience {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .qualification {
+    margin-top: 10px;
+  }
+
+  .education-text {
+    margin-top: 5px;
+  }
+
+  .experience-text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .experience {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .experience-text {
+    text-align: center;
+  }
+}

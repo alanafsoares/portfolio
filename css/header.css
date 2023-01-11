@@ -1,0 +1,45 @@
+body {
+  background: #000;
+}
+
+.header {
+  max-width: 1200px;
+  display: flex;
+  padding: 2.5rem 1.25rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.header-menu a {
+  font-size: 1.125rem;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  display: block;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+.header-menu a:hover {
+  border: 1px solid var(--base-color-second);
+}
+
+@media (max-width: 950px) {
+  .header {
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 1.25rem;
+  }
+}
+@media (max-width: 400px) {
+ .header-menu a {
+  padding: 0.8rem 1rem;
+ }
+}
