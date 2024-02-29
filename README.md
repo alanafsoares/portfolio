@@ -1,7 +1,5 @@
 # My portfolio / Meu portfólio ✨
 
->Meu portfólio para demonstrar meus projetos de estudos. 
-
 ## Layout web
 ![desktop](./.github/desktop.png)
 
